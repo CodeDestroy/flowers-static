@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="ru">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="FLOWER ROOM — авторские букеты из свежих цветов" name="description"/>
+  <title>
+   Пудровое утро — FLOWER ROOM
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+   body {
+  font-family:Manrope,Arial,sans-serif
+}
+
+[hidden] {
+  display:none!important
+}
+
+input, select {
+  outline-color:#b45d6c
+}
+
+.prose-link {
+  color:#a65363
+}
+  </style>
+ </head>
+ <body class="min-h-screen bg-[#fffdfb] font-sans text-[#292522] antialiased">
+  <header class="sticky top-0 z-40 border-b border-stone-200/80 bg-[#fffdfb]/95 backdrop-blur">
+   <div class="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <a aria-label="FLOWER ROOM — на главную" class="group inline-flex items-center gap-2" href="index.html">
+     <span class="grid h-10 w-10 place-items-center rounded-2xl bg-[#f6e5e6] text-[#a94e60]">
+      <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewbox="0 0 24 24">
+       <path d="M12 20c-1.8-3.5-6.5-5.8-6.5-10.2A3.8 3.8 0 0 1 12 8a3.8 3.8 0 0 1 6.5 1.8C18.5 14.2 13.8 16.5 12 20Z">
+       </path>
+       <path d="M12 8c-1.5-2.1-1.1-4.1 0-5.5 1.1 1.4 1.5 3.4 0 5.5ZM12 8c-2.4-.8-4.2-2.4-4.5-4.2C9.5 4 11.2 5.4 12 8ZM12 8c2.4-.8 4.2-2.4 4.5-4.2C14.5 4 12.8 5.4 12 8Z">
+       </path>
+      </svg>
+     </span>
+     <span class="leading-none">
+      <span class="block text-lg font-black tracking-[.16em]">
+       FLOWER ROOM
+      </span>
+      <span class="mt-1 block text-[9px] font-semibold tracking-[.28em] text-stone-500">
+       ЦВЕТЫ И ЭМОЦИИ
+      </span>
+     </span>
+    </a>
+    <nav class="hidden items-center gap-8 md:flex">
+     <a class="text-sm font-semibold text-stone-700 hover:text-[#b45d6c]" href="index.html#catalog">
+      Каталог
+     </a>
+     <a class="text-sm font-semibold text-stone-700 hover:text-[#b45d6c]" href="contacts.html">
+      Контакты
+     </a>
+    </nav>
+    <div class="hidden items-center gap-5 md:flex">
+     <a class="text-sm font-semibold text-stone-700 hover:text-[#b45d6c]" href="login.html">
+      Войти
+     </a>
+     <a class="rounded-full bg-[#b45d6c] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#984858]" href="index.html#catalog">
+      Выбрать букет
+     </a>
+    </div>
+    <button aria-controls="mobile-menu" aria-expanded="false" aria-label="Открыть меню" class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-stone-200 md:hidden" data-menu-button="" type="button">
+     <svg class="h-5 w-5" data-menu-open-icon="" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+      <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round">
+      </path>
+     </svg>
+     <svg class="hidden h-5 w-5" data-menu-close-icon="" fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24">
+      <path d="m6 6 12 12M18 6 6 18" stroke-linecap="round">
+      </path>
+     </svg>
+    </button>
+   </div>
+   <div class="hidden border-t border-stone-200 bg-[#fffdfb] px-4 py-4 md:hidden" data-mobile-menu="" id="mobile-menu">
+    <nav class="mx-auto flex max-w-7xl flex-col gap-1">
+     <a class="rounded-xl px-3 py-3 text-sm font-semibold hover:bg-rose-50" href="index.html#catalog">
+      Каталог
+     </a>
+     <a class="rounded-xl px-3 py-3 text-sm font-semibold hover:bg-rose-50" href="contacts.html">
+      Контакты
+     </a>
+     <a class="rounded-xl px-3 py-3 text-sm font-semibold hover:bg-rose-50" href="login.html">
+      Войти в аккаунт
+     </a>
+     <a class="mt-2 rounded-full bg-[#b45d6c] px-5 py-3 text-center text-sm font-semibold text-white" href="register.html">
+      Создать аккаунт
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <nav class="mb-7 text-xs text-stone-500">
+     <a class="hover:text-[#a65363]" href="index.html#catalog">
+      Каталог
+     </a>
+     <span class="mx-2">
+      /
+     </span>
+     <span class="text-stone-800">
+      Пудровое утро
+     </span>
+    </nav>
+    <div class="grid gap-9 lg:grid-cols-2 lg:gap-16">
+     <div>
+      <div class="overflow-hidden rounded-[1.75rem] bg-stone-100">
+       <img alt="Пудровое утро" class="aspect-[4/4.5] w-full object-cover" data-main-product-image="" src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1200&q=90"/>
+      </div>
+      <div class="mt-3 grid grid-cols-4 gap-3">
+       <button class="overflow-hidden rounded-xl border-2 border-transparent hover:border-[#b45d6c]" data-gallery-image="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1200&q=90" type="button">
+        <img alt="Фото букета" class="aspect-square w-full object-cover" src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=1200&q=90"/>
+       </button>
+       <button class="overflow-hidden rounded-xl border-2 border-transparent hover:border-[#b45d6c]" data-gallery-image="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=900&q=85" type="button">
+        <img alt="Фото букета" class="aspect-square w-full object-cover" src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=900&q=85"/>
+       </button>
+       <button class="overflow-hidden rounded-xl border-2 border-transparent hover:border-[#b45d6c]" data-gallery-image="https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=900&q=85" type="button">
+        <img alt="Фото букета" class="aspect-square w-full object-cover" src="https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=900&q=85"/>
+       </button>
+      </div>
+     </div>
+     <div class="lg:py-5">
+      <span class="text-xs font-bold uppercase tracking-[.2em] text-[#b45d6c]">
+       Авторская композиция
+      </span>
+      <h1 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
+       Пудровое утро
+      </h1>
+      <div class="mt-5 flex flex-wrap items-center gap-3">
+       <span class="text-2xl font-black">
+        4 200 ₽
+       </span>
+       <span class="text-base text-stone-400 line-through">
+        4 900 ₽
+       </span>
+       <span class="rounded-full bg-rose-50 px-3 py-1 text-xs font-bold text-[#a65363]">
+        Специальная цена
+       </span>
+      </div>
+      <p class="mt-6 text-sm leading-7 text-stone-600">
+       Нежная композиция в пудровых оттенках — для признания, благодарности или просто хорошего дня.
+      </p>
+      <div class="mt-7 space-y-4 border-y border-stone-200 py-6 text-sm">
+       <div class="flex justify-between gap-4">
+        <span class="text-stone-500">
+         Состав
+        </span>
+        <span class="max-w-[65%] text-right font-semibold">
+         Пионовидные розы, эустома, сезонная зелень
+        </span>
+       </div>
+       <div class="flex justify-between gap-4">
+        <span class="text-stone-500">
+         Размер
+        </span>
+        <span class="text-right font-semibold">
+         Средний, около 35 см
+        </span>
+       </div>
+       <div class="flex justify-between gap-4">
+        <span class="text-stone-500">
+         Артикул
+        </span>
+        <span class="text-right font-semibold">
+         FR-001
+        </span>
+       </div>
+      </div>
+      <div class="mt-7 flex flex-wrap gap-3">
+       <div class="flex items-center rounded-full border border-stone-200">
+        <button class="grid h-12 w-11 place-items-center text-lg" data-quantity-minus="" type="button">
+         −
+        </button>
+        <input class="h-12 w-10 border-0 bg-transparent p-0 text-center text-sm font-bold" data-quantity="" max="20" min="1" type="number" value="1"/>
+        <button class="grid h-12 w-11 place-items-center text-lg" data-quantity-plus="" type="button">
+         +
+        </button>
+       </div>
+       <button class="min-w-[190px] flex-1 rounded-full bg-[#b45d6c] px-7 py-3.5 text-sm font-bold text-white hover:bg-[#984858]" data-add-cart="" type="button">
+        Добавить в корзину
+       </button>
+      </div>
+      <p class="mt-3 hidden text-sm font-semibold text-[#a65363]" data-cart-message="" role="status">
+      </p>
+      <div class="mt-7 grid gap-3 sm:grid-cols-2">
+       <div class="rounded-2xl bg-stone-50 p-4">
+        <p class="text-sm font-bold">
+         Свежие цветы
+        </p>
+        <p class="mt-1 text-xs leading-5 text-stone-500">
+         Собираем букет непосредственно перед отправкой.
+        </p>
+       </div>
+       <div class="rounded-2xl bg-stone-50 p-4">
+        <p class="text-sm font-bold">
+         Бережная доставка
+        </p>
+        <p class="mt-1 text-xs leading-5 text-stone-500">
+         Подберём удобное время и сохраним красоту букета.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="mt-20 bg-[#282522] text-white">
+   <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+    <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+     <div class="sm:col-span-2">
+      <a class="inline-flex items-center gap-2 text-lg font-black tracking-[.16em]" href="index.html">
+       <span class="grid h-10 w-10 place-items-center rounded-2xl bg-white/10 text-rose-200">
+        ✿
+       </span>
+       FLOWER ROOM
+      </a>
+      <p class="mt-5 max-w-sm text-sm leading-6 text-stone-400">
+       Цветы, которые говорят за вас. Собираем букеты для важных встреч, маленьких радостей и больших событий.
+      </p>
+     </div>
+     <div>
+      <h2 class="text-sm font-bold">
+       Покупателям
+      </h2>
+      <ul class="mt-4 space-y-3 text-sm text-stone-400">
+       <li>
+        <a class="hover:text-white" href="index.html#catalog">
+         Каталог букетов
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="contacts.html">
+         Доставка и контакты
+        </a>
+       </li>
+       <li>
+        <a class="hover:text-white" href="login.html">
+         Личный кабинет
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h2 class="text-sm font-bold">
+       Связаться с нами
+      </h2>
+      <ul class="mt-4 space-y-3 text-sm text-stone-400">
+       <li>
+        <a href="tel:+78005553535">
+         8 (800) 555-35-35
+        </a>
+       </li>
+       <li>
+        <a href="mailto:hello@flower-room.ru">
+         hello@flower-room.ru
+        </a>
+       </li>
+       <li>
+        Ежедневно, 9:00–21:00
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-stone-500 sm:flex-row sm:items-center sm:justify-between">
+     <span>
+      ©
+      <span data-year="">
+      </span>
+      FLOWER ROOM. Все права защищены.
+     </span>
+     <span>
+      С любовью к каждому цветку
+     </span>
+    </div>
+   </div>
+  </footer>
+  <script src="assets/js/app.js">
+  </script>
+ </body>
+</html>
